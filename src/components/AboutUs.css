@@ -1,0 +1,93 @@
+.banner-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.AboutBanner {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+}
+
+.bannerTextA {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: rgb(5, 4, 4);
+    text-align: center;
+    font-weight: bold;
+    max-width: calc(100% - 70px); 
+}
+
+.highlight-text {
+    color: #009999;
+    position: relative;
+    display: inline-block;
+}
+
+.highlight-text::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    margin-top: 5px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 0 auto; 
+    padding: 0 20px; 
+    max-width: 1200px; 
+    width: 100%;
+    background: antiquewhite;
+}
+
+.about-section,
+.history-content,
+.innovation-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 20px; 
+    margin: 40px 0; 
+    width: 100%; 
+    max-width: 1000px; 
+}
+
+.about-info,
+.history-text,
+.innovation-text {
+    width: 50%; 
+    text-align: left;
+    background: antiquewhite;
+}
+ 
+.imageContainer_image {
+    width: 100%;  
+    max-width: 500px;  
+    height: auto;  
+    object-fit: cover;  
+    border-radius: 20px; 
+}
+ 
+@media (max-width: 768px) {
+    .about-section,
+    .history-content,
+    .innovation-content {
+        flex-direction: column;  
+        text-align: center;  
+    }
+
+    .imageContainer_image,
+    .about-info,
+    .history-text,
+    .innovation-text {
+        width: 100%; 
+    }
+}

@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
+import logo from '../src/Images/Logo.svg';
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
       <div className="App">
         <header>
           <nav>
-            <ul>
+          <img src={logo} alt="Company Logo" className="logo" /> 
+            
+            <ul className="nav-links">
               <li> <Link to="/">AboutUs</Link></li>
               <li><Link to="/contact">Contact</Link> </li>
             </ul>
