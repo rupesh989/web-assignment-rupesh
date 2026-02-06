@@ -62,7 +62,6 @@ const AboutUs = () => {
               Besides, our intuitive solutions enable businesses to forecast and be proactive.
               Starting as pioneers in resource management, today, our products are several years ahead of the market.
               We foster an innovative culture wherein out-of-the-box ideas are encouraged and evaluated.
-              Our range of products is highly configurable to fit every customer's unique business needs.
             </p>
           </div>
           
