@@ -63,7 +63,6 @@ const AboutUs = () => {
               Starting as pioneers in resource management, today, our products are several years ahead of the market.
               We foster an innovative culture wherein out-of-the-box ideas are encouraged and evaluated.
               Our range of products is highly configurable to fit every customer's unique business needs.
-              Additionally, our future releases are decided after carefully understanding various client-centric challenges.
             </p>
           </div>
           
