@@ -12,7 +12,7 @@
 .bannerTextA {
     position: absolute;
     top: 30%;
-    left: 30%;
+    left: 60%;
     transform: translate(-50%, -50%);
     font-size: 8rem;
     color: rgb(8, 4, 4);
